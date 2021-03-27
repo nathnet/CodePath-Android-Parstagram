@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="16dp"
     android:orientation="vertical"
-    tools:context=".LoginActivity">
+    tools:context=".SignUpActivity">
 
     <EditText
         android:id="@+id/etUsername"
@@ -27,18 +27,18 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Login" />
+        android:text="Sign Up" />
 
     <Button
-        android:id="@+id/btnToSignup"
+        android:id="@+id/btnToLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:layout_weight="1"
-        android:text="Go To Signup" />
+        android:text="Go To Login" />
 
 </LinearLayout>
